@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroUI", "MaestroUI\MaestroUI.csproj", "{70F2D9E1-50C1-4844-8B3E-CF1288333862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroCommon", "MaestroCommon\MaestroCommon.csproj", "{BAF9D984-00EC-4C6E-8314-B59B99978970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70F2D9E1-50C1-4844-8B3E-CF1288333862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F2D9E1-50C1-4844-8B3E-CF1288333862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F2D9E1-50C1-4844-8B3E-CF1288333862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F2D9E1-50C1-4844-8B3E-CF1288333862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF9D984-00EC-4C6E-8314-B59B99978970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF9D984-00EC-4C6E-8314-B59B99978970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF9D984-00EC-4C6E-8314-B59B99978970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF9D984-00EC-4C6E-8314-B59B99978970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98D3548A-D39D-4C6B-800B-6B86FB024E58}
+	EndGlobalSection
+EndGlobal

@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Debug' ">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'MaestroMediaCenter' ">
     <ExternalConsole>true</ExternalConsole>
   </PropertyGroup>
   <ItemGroup>
@@ -17,5 +17,11 @@
     <ProjectReference Include="..\MaestroCommon\MaestroCommon.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="build.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="build.sh" />
   </ItemGroup>
 </Project>

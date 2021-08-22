@@ -7,11 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroUI", "MaestroUI\Maes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroCommon", "MaestroCommon\MaestroCommon.csproj", "{BAF9D984-00EC-4C6E-8314-B59B99978970}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06C83C7A-9E39-463B-AB53-37D0372D1528}"
-	ProjectSection(SolutionItems) = preProject
-		cloudflare-pages-build.sh = cloudflare-pages-build.sh
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

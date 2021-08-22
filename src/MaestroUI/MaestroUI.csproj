@@ -21,7 +21,4 @@
   <ItemGroup>
     <None Remove="build.sh" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="build.sh" />
-  </ItemGroup>
 </Project>

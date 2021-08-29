@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroUI", "MaestroUI\Maes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroCommon", "MaestroCommon\MaestroCommon.csproj", "{BAF9D984-00EC-4C6E-8314-B59B99978970}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroServer", "MaestroServer\MaestroServer.csproj", "{6B1A132C-DAD1-49B5-BE68-AC23131C232D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BAF9D984-00EC-4C6E-8314-B59B99978970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAF9D984-00EC-4C6E-8314-B59B99978970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAF9D984-00EC-4C6E-8314-B59B99978970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1A132C-DAD1-49B5-BE68-AC23131C232D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1A132C-DAD1-49B5-BE68-AC23131C232D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1A132C-DAD1-49B5-BE68-AC23131C232D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1A132C-DAD1-49B5-BE68-AC23131C232D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

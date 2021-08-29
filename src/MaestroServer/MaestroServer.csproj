@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-MaestroServer-5607A9A5-0493-44E5-81A9-0DF5959D542A</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'dotnet' " />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.7" />
+    <PackageReference Include="D2L.Hypermedia.Siren" Version="2.2.2" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.0.56" />
+    <PackageReference Include="LruCacheNet" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="D2L.Hypermedia.Siren" />
+    <None Remove="Hypermedia\" />
+    <None Remove="Hypermedia\Controllers\" />
+    <None Remove="AWSSDK.DynamoDBv2" />
+    <None Remove="Hypermedia\Utilities\" />
+    <None Remove="Users\" />
+    <None Remove="Middleware\" />
+    <None Remove="LruCacheNet" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hypermedia\" />
+    <Folder Include="Hypermedia\Controllers\" />
+    <Folder Include="Hypermedia\Utilities\" />
+    <Folder Include="Users\" />
+    <Folder Include="Middleware\" />
+  </ItemGroup>
+</Project>
